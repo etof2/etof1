@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "title": "abiyyee addaa qoradhu. Uumtoota jaallattan deeggaruuf amma join godhaa.",
+    "subtitle": "bilisaan join godhaa"
+  },
+  "button0": {
+    "sign-in": "sirba-keessatti",
+    "sign-up": "galmaa'aa",
+    "text": "bilisaan join godhaa"
+  },
+  "auth": {
+    "text1": "📅  vaan vandaag  📅",
+    "text2": "❤❤ Moodeelota filataman ❤❤"
+  },
+  "feature": {
+    "text1": "Qabiyyee Addaa",
+    "text2": "Tajaajila Keessanittis Iddoo Ta'e",
+    "text3": "Walitti Dhufeenya Aadaa",
+    "text4": "Ergaa Dhoksaa",
+    "text5": "Gaaffii Addaa",
+    "text6": "Moodaalii Itoophiyaa",
+    "text7": "Qabiyyee Addaa Itoophiyaa",
+    "text8": "Qabiyyee Addaa fi aadaan badhaadhaa Moodaalii Itoophiyaa gurguddaa irraa argadhaa. Bareedina aadaa Itoophiyaa akka duraan hin beekneetti argadhaa.",
+    "text9": "Walitti Dhufeenya Dhoksaa",
+    "text10": "Ergaa dhoksaa fi walitti dhufeenya addaa Moodaalii Itoophiyaa jaalatamoo keessan waliin dinqisiifadhaa. Iddoo ol’aanaa irratti wal qunnamaa.",
+    "text11": "Gaaffii Addaa",
+    "text12": "Qabiyyee barbaachisummaa keessan irratti hundaa’e gaafadhaa. Moodaallonni keenya tajaajila isin duraatti ifa gochuuf qophaa’anii jiru.",
+    "text13": "tajaajila"
+  }
+}
