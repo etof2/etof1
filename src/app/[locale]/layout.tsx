@@ -3,7 +3,6 @@ import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import { ThemeProvider } from "@/providers/ThemeProviders";
-import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,12 +24,6 @@ export default function RootLayout({
 }: Readonly<RootLayoutProps>) {
   return (
     <html lang={locale}>
-      <head>
-        <Script
-          src="https://telegram.org/js/telegram-web-app.js"
-          strategy="beforeInteractive"
-        />
-      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
