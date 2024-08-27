@@ -13,14 +13,27 @@ interface UserData {
   is_premium?: boolean;
 }
 
-export default async function Home() {
+export default function Home() {
   const [userData, setUserData] = useState<UserData | null>(null);
+  const [isStarted, setIsStarted] = useState(false);
 
   useEffect(() => {
-    if (WebApp.initDataUnsafe.user) {
+    if (typeof window !== "undefined" && WebApp.initDataUnsafe?.user) {
       setUserData(WebApp.initDataUnsafe.user as UserData);
     }
-  });
+  }, []);
 
-  return <main className="">{userData ? <HomePage /> : <AuthPage />}</main>;
+  const handleStart = () => {
+    setIsStarted(true);
+  };
+
+  return (
+    <main>
+      {userData || isStarted ? (
+        <HomePage />
+      ) : (
+        <AuthPage onStart={handleStart} />
+      )}
+    </main>
+  );
 }
