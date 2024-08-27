@@ -1,12 +1,11 @@
 "use client";
-
-import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs/components";
 import React from "react";
+import BaseLayout from "./BaseLayout";
 
 const HomePage = () => {
   return (
     <div>
-      <LogoutLink>log out</LogoutLink>
+      <BaseLayout />
     </div>
   );
 };
